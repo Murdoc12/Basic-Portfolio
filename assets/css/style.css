@@ -1,21 +1,75 @@
-h1 {
-    background-color: #4aaaa5;
+body
+
+{ background-image: url("assets\images\funky-lines.png");
+    margin-bottom: 200px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-h2 {
-    background-color: #4aaaa5;
+
+.clearFix::after {
+    content: "";
+    display: table;
+    clear: both;
+
 }
 
-h3 {
-    background-color: #4aaaa5;
+    #name {
+    float: left;
+    color: white;
+    font-family:  "Georgia", Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 26px 30px 30px 30px;
+    margin-bottom: -20px;
+    margin-left: 375px;
+    text-decoration: non e;
+    background-color: aqua
+    }
+       
+#profile{
+position: fixed;
+
+
+
+
+ 
+
+
+
+}        
+
+
+    
+
+#about {
+float: right;
+text-align: right;
+
+
+
 }
 
-#box1 {
-    background-color: #4aaaa5;
-width: 200px;
-height: 50px;
-
-#profile 
+#portfolio
 {
-    float: right;
+float: right;
+
+
 }
+
+#Contact
+{
+float: right;
+
+
+}
+
+
+
+
+
+
+
+
+
+
